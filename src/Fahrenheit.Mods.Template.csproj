@@ -1,0 +1,36 @@
+﻿<!--
+Welcome to an example mod project file for Fahrenheit!
+
+This file describes your mod and configures certain build-time
+properties thereof. It is also used as input to create your mod's
+"manifest", which Fahrenheit requires to load it.
+
+A 'project' consists of a number of MSBuild 'properties' in 'groups'.
+See https://learn.microsoft.com/en-us/visualstudio/msbuild/msbuild-properties?view=visualstudio.
+-->
+
+<!--
+Make sure you read:
+- https://github.com/fahrenheit-crew/fahrenheit/wiki/Manifests#manifests-for-code-mods.
+-->
+<Project Sdk="Fahrenheit.Sdk/1.0.0-alpha12">
+    <PropertyGroup>
+        <AssemblyName>fhtemplate</AssemblyName>
+        <AssemblyTitle>Template Mod</AssemblyTitle>
+        <Product>Template Mod</Product>
+        <Description>This is a description of your mod.</Description>
+        <Version>1.0.0-alpha</Version>
+        <Authors>You!</Authors>
+        <RepositoryType>git</RepositoryType>
+        <RepositoryUrl>https://github.com/fahrenheit-crew/fh-mods-template</RepositoryUrl>
+        <FhManifestHomePage>https://github.com/fahrenheit-crew/fh-mods-template</FhManifestHomePage>
+        <FhManifestFlags>SEPARATE_SAVES</FhManifestFlags>
+    </PropertyGroup>
+</Project>
+
+<!--
+For a list of further properties, see:
+https://learn.microsoft.com/en-us/visualstudio/msbuild/common-msbuild-project-properties?view=visualstudio.
+
+If you have any questions, don't hesitate to contact us or file an issue!
+-->
